@@ -54,6 +54,20 @@ static=🍎 苹果服务, direct, img-url=https://raw.githubusercontent.com/Kool
 static=🎯 全球直连, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
 static=🛑 全球拦截, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
 static=🐟 漏网之鱼, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+static=Proxies, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
+static=Apple, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
+static=Telegram, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
+static=Youtube, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
+static=Netflix, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
+static=Netease, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
+static=HKMTMedia, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HKMTMedia.png
+static=GlobalMedia, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
+static=Final, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+static=HK, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+static=SG, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+static=TW, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Taiwan.png
+static=JP, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+static=US, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/US.png
 
 [server_remote]
 

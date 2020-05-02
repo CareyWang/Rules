@@ -16,7 +16,8 @@ enhanced-mode-by-rule = false
 
 {% if exists("request.surge.doh") %}
 {% if request.surge.doh == "true" %}
-dns-server = https://doh.rixcloud.dev/dns-query, https://118.31.13.131/dns-query, https://120.25.25.166/dns-query, https://139.224.112.177/dns-query, https://47.108.56.233/dns-query, https://59.110.53.209/dns-query
+dns-server = 119.29.29.29, 119.28.28.28, 180.76.76.76, 1.2.4.8
+doh-server = https://doh.rixcloud.dev/dns-query, https://118.31.13.131/dns-query, https://139.224.112.177/dns-query
 {% else %}
 dns-server = 119.29.29.29, 119.28.28.28, 180.76.76.76, 1.2.4.8
 {% endif %}

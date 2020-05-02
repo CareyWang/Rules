@@ -13,10 +13,7 @@ dns:
   nameserver:
     - https://doh.rixcloud.dev/dns-query
     - https://118.31.13.131/dns-query
-    - https://120.25.25.166/dns-query
     - https://139.224.112.177/dns-query
-    - https://47.108.56.233/dns-query
-    - https://59.110.53.209/dns-query
 {% endif %}
 {% endif %}
 

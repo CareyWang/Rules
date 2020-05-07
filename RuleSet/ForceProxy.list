@@ -1,5 +1,12 @@
+# Github
 DOMAIN-KEYWORD,github
-DOMAIN-SUFFIX,alibabacloud.com
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+
+# 阿里云
 DOMAIN-SUFFIX,home-intl.console.aliyun.com
 
 # Cloudflare

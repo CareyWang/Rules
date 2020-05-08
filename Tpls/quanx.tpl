@@ -44,30 +44,30 @@ server=/hotspot.cslwifi.com/system
 server=/amplifi.lan/system
 
 [policy]
-static=♻️ 自动选择, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
-static=🔰 节点选择, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
-static=🌍 国外媒体, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
-static=🌏 国内媒体, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/DomesticMedia.png
-static=Ⓜ️ 微软服务, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
-static=📲 电报信息, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
-static=🍎 苹果服务, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
-static=🎯 全球直连, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
-static=🛑 全球拦截, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
-static=🐟 漏网之鱼, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
-static=Proxies, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
-static=Apple, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
-static=Telegram, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
-static=Youtube, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
-static=Netflix, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
-static=Netease, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
-static=HKMTMedia, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HKMTMedia.png
-static=GlobalMedia, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
-static=Final, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
-static=HK, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
-static=SG, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
-static=TW, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Taiwan.png
-static=JP, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
-static=US, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/US.png
+static=♻️ 自动选择, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/available.png
+static=🔰 节点选择, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/static.png
+static=🌍 国外媒体, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/GlobalMedia.png
+static=🌏 国内媒体, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/China.png
+static=Ⓜ️ 微软服务, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Microsoft.png
+static=📲 电报信息, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Telegram.png
+static=🍎 苹果服务, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Apple.png
+static=🎯 全球直连, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/direct.png
+static=🛑 全球拦截, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Advertising.png
+static=🐟 漏网之鱼, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Final.png
+static=Proxies, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Proxy.png
+static=Apple, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Apple.png
+static=Telegram, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Telegram.png
+static=Youtube, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/YouTube.png
+static=Netflix, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Netflix.png
+static=Netease, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Netease.png
+static=HKMTMedia, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/HKMTMedia.png
+static=GlobalMedia, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/GlobalMedia.png
+static=Final, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Final.png
+static=HK, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/HK.png
+static=SG, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/SG.png
+static=TW, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/TW.png
+static=JP, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/JP.png
+static=US, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/US.png
 
 [server_remote]
 

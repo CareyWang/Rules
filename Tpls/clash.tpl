@@ -14,6 +14,8 @@ dns:
     - https://doh.rixcloud.dev/dns-query
     - https://118.31.13.131/dns-query
     - https://139.224.112.177/dns-query
+  hosts:
+    'mb3admin.com': 35.201.204.122
 {% endif %}
 {% endif %}
 

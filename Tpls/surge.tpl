@@ -62,6 +62,7 @@ router.asus.com = server:system
 hotspot.cslwifi.com = server:system
 amplifi.lan = server:system
 *.lan = server:system
+mb3admin.com = 35.201.204.122
 
 [URL Rewrite]
 # AbeamTV Unlock

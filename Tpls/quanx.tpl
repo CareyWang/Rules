@@ -54,7 +54,7 @@ static=🍎 苹果服务, direct, img-url=https://raw.githubusercontent.com/Orz-
 static=🎯 全球直连, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/direct.png
 static=🛑 全球拦截, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Advertising.png
 static=🐟 漏网之鱼, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Final.png
-static=Proxies, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Proxy.png
+static=Proxies, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/proxy.png
 static=Apple, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Apple.png
 static=Telegram, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Telegram.png
 static=Youtube, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/YouTube.png

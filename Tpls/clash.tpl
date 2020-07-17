@@ -12,8 +12,8 @@ dns:
   enhanced-mode: fake-ip
   nameserver:
     - https://doh.rixcloud.dev/dns-query
-    - https://118.31.13.131/dns-query
     - https://139.224.112.177/dns-query
+    - https://dns.alidns.com/dns-query
   hosts:
     'mb3admin.com': 35.201.204.122
 {% endif %}

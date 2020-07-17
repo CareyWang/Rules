@@ -18,7 +18,7 @@ external-controller-access = passw0rd@0.0.0.0:6170
 {% if exists("request.surge.doh") %}
 {% if request.surge.doh == "true" %}
 dns-server = 119.29.29.29, 119.28.28.28, 180.76.76.76, 1.2.4.8
-doh-server = https://doh.rixcloud.dev/dns-query, https://118.31.13.131/dns-query, https://139.224.112.177/dns-query
+doh-server = https://doh.rixcloud.dev/dns-query, https://139.224.112.177/dns-query, https://dns.alidns.com/dns-query
 {% else %}
 dns-server = 119.29.29.29, 119.28.28.28, 180.76.76.76, 1.2.4.8
 {% endif %}
@@ -30,6 +30,7 @@ dns-server = 119.29.29.29, 119.28.28.28, 180.76.76.76, 1.2.4.8
 ip6-localhost = ::1
 ip6-loopback = ::1
 doh.rixcloud.dev = server:119.29.29.29
+dns.alidns.com = server:223.5.5.5
 taobao.com = server:223.6.6.6
 *.taobao.com = server:223.6.6.6
 tmall.com = server:223.6.6.6

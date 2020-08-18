@@ -18,7 +18,7 @@ external-controller-access = passw0rd@0.0.0.0:6170
 {% if exists("request.surge.doh") %}
 {% if request.surge.doh == "true" %}
 dns-server = 119.29.29.29, 119.28.28.28, 180.76.76.76, 1.2.4.8
-doh-server = https://doh.rixcloud.dev/dns-query, https://139.224.112.177/dns-query, https://dns.alidns.com/dns-query
+doh-server = https://doh.rixcloud.dev/dns-query, https://doh.pub/dns-query, https://dns.alidns.com/dns-query, https://dns.wcc.best/dns-query
 {% else %}
 dns-server = 119.29.29.29, 119.28.28.28, 180.76.76.76, 1.2.4.8
 {% endif %}
@@ -64,7 +64,6 @@ router.asus.com = server:system
 hotspot.cslwifi.com = server:system
 amplifi.lan = server:system
 *.lan = server:system
-mb3admin.com = 35.201.204.122
 
 [URL Rewrite]
 # AbeamTV Unlock

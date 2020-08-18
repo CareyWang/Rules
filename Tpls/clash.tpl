@@ -11,11 +11,16 @@ dns:
   listen: 0.0.0.0:53
   enhanced-mode: fake-ip
   nameserver:
-    - https://doh.rixcloud.dev/dns-query
-    - https://139.224.112.177/dns-query
     - https://dns.alidns.com/dns-query
-  hosts:
-    'mb3admin.com': 35.201.204.122
+    - https://dns.wcc.best/dns-query
+    - https://139.224.112.177/dns-query
+  fallback:
+    - https://doh.rixcloud.dev/dns-query
+    - https://doh.xeton.dev/dns-query
+  fake-ip-filter:
+    - 'dns.msftncsi.com'
+    - 'www.msftncsi.com'
+    - 'www.msftconnecttest.com'
 {% endif %}
 {% endif %}
 

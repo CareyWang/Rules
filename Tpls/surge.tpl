@@ -18,7 +18,7 @@ external-controller-access = passw0rd@0.0.0.0:6170
 {% if exists("request.surge.doh") %}
 {% if request.surge.doh == "true" %}
 dns-server = 119.29.29.29, 119.28.28.28, 180.76.76.76, 1.2.4.8
-doh-server = https://doh.rixcloud.dev/dns-query, https://doh.pub/dns-query, https://dns.alidns.com/dns-query, https://dns.wcc.best/dns-query
+doh-server = https://doh.xeton.dev/dns-query, https://175.102.24.247/dns-query, https://doh.pub/dns-query, https://dns.wcc.best/dns-query
 {% else %}
 dns-server = 119.29.29.29, 119.28.28.28, 180.76.76.76, 1.2.4.8
 {% endif %}

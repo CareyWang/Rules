@@ -12,8 +12,9 @@ dns:
   enhanced-mode: fake-ip
   nameserver:
     - https://dns.alidns.com/dns-query
-    - https://dns.wcc.best/dns-query
+    - https://175.102.24.247/dns-query
     - https://139.224.112.177/dns-query
+    - https://dns.wcc.best/dns-query
   fallback:
     - https://doh.rixcloud.dev/dns-query
     - https://doh.xeton.dev/dns-query

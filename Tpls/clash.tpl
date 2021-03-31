@@ -8,15 +8,14 @@ external-controller: :9090
 {% if request.clash.doh == "true" %}
 dns:
   enable: true
-  listen: 0.0.0.0:53
   enhanced-mode: fake-ip
+  listen: 0.0.0.0:53
   nameserver:
-    - https://dns.alidns.com/dns-query
-    - https://175.102.24.247/dns-query
+    - https://doh.pub/dns-query
+    - https://rubyfish.cn/dns-query
     - https://139.224.112.177/dns-query
-    - https://dns.wcc.best/dns-query
   fallback:
-    - https://doh.rixcloud.dev/dns-query
+    - https://dns.rubyfish.cn/dns-query
     - https://doh.xeton.dev/dns-query
   fake-ip-filter:
     - 'dns.msftncsi.com'

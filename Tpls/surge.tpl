@@ -17,13 +17,13 @@ external-controller-access = passw0rd@0.0.0.0:6170
 
 {% if exists("request.surge.doh") %}
 {% if request.surge.doh == "true" %}
-dns-server = 119.29.29.29, 119.28.28.28, 180.76.76.76, 1.2.4.8
-doh-server = https://doh.xeton.dev/dns-query, https://175.102.24.247/dns-query, https://doh.pub/dns-query, https://dns.wcc.best/dns-query
+dns-server = 119.28.28.28, 180.76.76.76
+doh-server = https://doh.pub/dns-query, https://rubyfish.cn/dns-query, https://dns.rubyfish.cn/dns-query, https://doh.xeton.dev/dns-query
 {% else %}
-dns-server = 119.29.29.29, 119.28.28.28, 180.76.76.76, 1.2.4.8
+dns-server = 119.29.29.29, 119.28.28.28, 180.76.76.76
 {% endif %}
 {% else %}
-dns-server = 119.29.29.29, 119.28.28.28, 180.76.76.76, 1.2.4.8
+dns-server = 119.29.29.29, 119.28.28.28, 180.76.76.76
 {% endif %}
 
 [Host]
@@ -651,30 +651,6 @@ amplifi.lan = server:system
 ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject
 
 [Script]
-http-response ^https?:\/\/(api|mapi)\.weibo\.(cn|com)\/2(\/groups\/timeline|\/statuses\/unread|\/statuses\/extend|\/comments\/build_comments|\/photo\/recommend_list|\/stories\/video_stream|\/statuses\/positives\/get|\/stories\/home_list|\/profile\/statuses|\/statuses\/friends\/timeline|\/service\/picfeed) requires-body=true,script-path=https://ruleset.dev/wb_ad,script-update-interval=86400
-http-response ^https?:\/\/(sdk|wb)app\.uve\.weibo\.com(\/interface\/sdk\/sdkad.php|\/wbapplua\/wbpullad.lua) requires-body=true,script-path=https://ruleset.dev/wb_launch,script-update-interval=86400
-
-http-response ^https://[\s\S]*\/aweme/v1/(feed|aweme/post|follow/feed)/ requires-body=1,script-update-interval=0,script-update-interval=86400,script-path=https://ruleset.dev/Aweme
-
-http-response ^https:\/\/api\.rr\.tv[\s\S]*(channel|Feed|Choice|profile|Medal) max-size=524288,requires-body=true,script-path=https://ruleset.dev/RRad,script-update-interval=86400
-
-# Onewayticket255
-http-response https://api.zhihu.com/moments\?(action|feed_type) requires-body=1,max-size=0,script-path=https://ruleset.dev/zhihu_feed,script-update-interval=86400
-http-response https://api.zhihu.com/topstory/recommend requires-body=1,max-size=0,script-path=https://ruleset.dev/zhihu_recommend,script-update-interval=86400
-http-response https://api.zhihu.com/.*/questions requires-body=1,max-size=0,script-path=https://ruleset.dev/zhihu_answer,script-update-interval=86400
-http-response https://api.zhihu.com/market/header requires-body=1,max-size=0,script-path=https://ruleset.dev/zhihu_market,script-update-interval=86400
-http-response https://api.zhihu.com/people/ requires-body=1,max-size=0,script-path=https://ruleset.dev/surge3_zhihu_people,script-update-interval=86400
-
-http-response https://app.bilibili.com/x/v2/rank requires-body=1,max-size=0,script-path=https://ruleset.dev/bilibili_rank,script-update-interval=86400
-http-response https://app.bilibili.com/x/v2/space\?access_key requires-body=1,max-size=0,script-path=https://ruleset.dev/bilibili_space,script-update-interval=86400
-http-response https://app.bilibili.com/x/resource/show/tab\?access_key requires-body=1,max-size=0,script-path=https://ruleset.dev/bilibili_tab,script-update-interval=86400
-http-response https://app.bilibili.com/x/v2/feed/index\?access_key requires-body=1,max-size=0,script-path=https://ruleset.dev/bilibili_feed,script-update-interval=86400
-http-response https://app.bilibili.com/x/v2/account/mine\?access_key requires-body=1,max-size=0,script-path=https://ruleset.dev/bilibili_account,script-update-interval=86400
-http-response https://app.bilibili.com/x/v2/view\?access_key requires-body=1,max-size=0,script-path=https://ruleset.dev/bilibili_relate,script-update-interval=86400
-http-response https://app.bilibili.com/x/v2/show/popular/index\?access_key requires-body=1,max-size=0,script-path=https://ruleset.dev/bilibili_hot,script-update-interval=86400
-http-response https://api.bilibili.com/x/v2/reply/main\?access_key requires-body=1,max-size=0,script-path=https://ruleset.dev/bilibili_reply,script-update-interval=86400
-http-response https://api.live.bilibili.com/xlive/app-room/v1/index/getInfoByRoom\?access_key requires-body=1,max-size=0,script-path=https://ruleset.dev/bilibili_live,script-update-interval=86400
-
 # 微博去广告
 http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
 http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
@@ -689,9 +665,6 @@ http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness
 # 淘宝历史价格
 http-request ^http://.+/amdc/mobileDispatch requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
-
-# Keep收费课程
-http-response https:\/\/api\.gotokeep\.com\/(.+\/subject|.+\/dynamic) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Keep.js
 
 [MITM]
 enable = false

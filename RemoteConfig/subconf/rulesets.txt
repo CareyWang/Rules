@@ -1,0 +1,16 @@
+REJECT,rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list
+DIRECT,https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RuleSet/ForceDirect.list
+Proxies,https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RuleSet/ForceProxy.list
+Apple,rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list
+MicroSoft,https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RuleSet/microsoft.list
+Netease,https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RuleSet/Media/netease.list
+Telegram,rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list
+Netflix,https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RuleSet/Media/netflix.list
+HKMTMedia,https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RuleSet/Media/HKMTMedia.list
+Proxies,rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list
+Proxies,rules/DivineEngine/Surge/Ruleset/Global.list
+DIRECT,rules/LocalAreaNetwork.list
+DIRECT,rules/DivineEngine/Surge/Ruleset/Unbreak.list
+DIRECT,rules/DivineEngine/Surge/Ruleset/China.list
+DIRECT,[]GEOIP,CN
+Proxies,[]MATCH

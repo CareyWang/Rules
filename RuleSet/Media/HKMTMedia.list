@@ -8,7 +8,8 @@ IP-CIDR,101.224.0.0/13,no-resolve
 IP-CIDR,119.176.0.0/12,no-resolve
 
 # > Bilibili
-USER-AGENT,*bili*
+USER-AGENT,bili*
+USER-AGENT,Bilibili*
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,b23.tv
@@ -20,6 +21,7 @@ DOMAIN-SUFFIX,biligame.net
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,im9.com
+DOMAIN-SUFFIX,smtcdns.net
 
 # > Bahamut
 USER-AGENT,Anime*

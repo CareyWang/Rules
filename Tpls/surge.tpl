@@ -18,7 +18,7 @@ external-controller-access = passw0rd@0.0.0.0:6170
 {% if exists("request.surge.doh") %}
 {% if request.surge.doh == "true" %}
 dns-server = 119.28.28.28, 180.76.76.76
-doh-server = https://doh.pub/dns-query, https://rubyfish.cn/dns-query, https://dns.rubyfish.cn/dns-query, https://doh.xeton.dev/dns-query
+doh-server = https://doh.pub/dns-query, https://rubyfish.cn/dns-query, https://223.6.6.6/dns-query, https://doh.dns.sb/dns-query
 {% else %}
 dns-server = 119.29.29.29, 119.28.28.28, 180.76.76.76
 {% endif %}

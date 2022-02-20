@@ -13,10 +13,12 @@ dns:
   nameserver:
     - https://doh.pub/dns-query
     - https://rubyfish.cn/dns-query
-    - https://139.224.112.177/dns-query
+    - https://223.6.6.6/dns-query
   fallback:
-    - https://dns.rubyfish.cn/dns-query
-    - https://doh.xeton.dev/dns-query
+    - https://dns.google/dns-query
+    - https://dns.cloudflare.com/dns-query
+    - https://doh.dns.sb/dns-query
+    - tls://1dot1dot1dot1.cloudflare-dns.com
   fake-ip-filter:
     - 'dns.msftncsi.com'
     - 'www.msftncsi.com'
